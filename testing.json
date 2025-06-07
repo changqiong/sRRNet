@@ -1,0 +1,15 @@
+{
+    "loader":"test",
+    "left_path":"./data/test/test_left/",
+    "disp_path":"./data/test/disp/",
+    "gt_path":"",
+    "gt_path_noc":"",
+
+    "val_left_path":"./data/test/mini_left/",
+    "val_disp_path":"./data/test/disp/",
+    "val_gt_path":"./data/train/gt/",
+    "val_gt_path_noc":"./data/train/gt_noc/",
+
+    "down_sample_ratio":16,
+    "epochs":1
+}

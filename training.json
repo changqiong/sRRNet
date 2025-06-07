@@ -1,0 +1,16 @@
+
+{
+	"loader":"kitti2015",
+	"left_path":"./data/train/mini_left/",
+	"disp_path":"./data/train/disp/",
+	"gt_path":"./data/train/gt/",
+	"gt_path_noc":"./data/train/gt_noc/",
+
+	"val_left_path":"./data/train/mini_left/",
+	"val_disp_path":"./data/train/disp/",
+	"val_gt_path":"./data/train/gt/",
+	"val_gt_path_noc":"./data/train/gt_noc/",
+
+	"down_sample_ratio":16,
+	"epochs":20
+}
