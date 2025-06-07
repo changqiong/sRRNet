@@ -1,3 +1,14 @@
+# ============================================================================
+# Copyright (c) 2022, Chang Qiong. All rights reserved.
+#
+# This source code is licensed under the MIT license found in the
+# LICENSE file in the root directory of this source tree.
+#
+# Author: Qiong Chang
+# Description: Refactored main execution file for sRRNet training and testing
+# Compatible with Python 2.7 and TensorFlow 1.9.0-GPU
+# ============================================================================
+
 from __future__ import division
 import argparse
 import json
