@@ -89,6 +89,12 @@ A pre-trained model 'model.ckpt-pretrain' is provided in './model/' folder.
 ## Related Publications
 
 > Chang, Qiong, et al. 
+> "StereoVAE: A lightweight stereo-matching system using embedded GPUs"
+> IEEE International Conference on Robotics and Automation (ICRA), 2023
+
+and
+
+> Chang, Qiong, et al. 
 > "TinyStereo: A Tiny Coarse-to-Fine Framework for Vision-Based Depth Estimation on Embedded GPUs."
 > IEEE Transactions on Systems, Man, and Cybernetics: Systems (2024).
 ---
@@ -104,6 +110,17 @@ If you use this code for academic purposes, please cite the following paper:
   journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
   year={2024},
   publisher={IEEE}
+}
+
+and
+
+@inproceedings{chang2023stereovae,
+  title={StereoVAE: A lightweight stereo-matching system using embedded GPUs},
+  author={Chang, Qiong and Li, Xiang and Xu, Xin and Liu, Xin and Li, Yun and Miyazaki, Jun},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={1982--1988},
+  year={2023},
+  organization={IEEE}
 }
 ```
 
