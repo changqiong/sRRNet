@@ -26,10 +26,10 @@ config.gpu_options.allow_growth = True
 parser = argparse.ArgumentParser()
 parser.add_argument('--mode', type=str, default='train')
 parser.add_argument('--model', type=str, default=None)
-parser.add_argument('--parameter', type=str, default=None)
+parser.add_argument('--config', type=str, default=None)
 args = parser.parse_args()
 
-with open(args.parameter) as f:
+with open(args.config) as f:
     j = json.load(f)
 
 Params = tf.contrib.framework.nest.map_structure(lambda *v: v[0], j)
@@ -140,6 +140,6 @@ with tf.Graph().as_default():
 
                 disp = np.uint16(out[0, out.shape[1]-oh:, out.shape[2]-ow:, 0] * 256)
                 cv.imwrite(os.path.join(output, name), disp)
-                print("Res saved at: ./test/{}".format(name))
+                print("Res saved at: ./{}{}".format(output, name))
 
             print("total time:", time.time() - t_total)
