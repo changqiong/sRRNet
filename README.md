@@ -24,8 +24,8 @@ any other requirements
 
 Also, make sure you have:
 
-- Python 2.7+ ()
-- GPU-enabled environment with CUDA/cuDNN support (for training)
+- Python 2.7+
+- GPU-enabled environment (e.g. Jetson Tx2/AGX) with CUDA/cuDNN support
 
 ## Directory Structure
 
