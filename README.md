@@ -3,9 +3,9 @@
 Implemented a lightweight coarse-to-fine stereo matching framework optimized for embedded GPUs, 
 enabling efficient and accurate depth estimation under constrained computational resources.
 
-##input
-<img src="result/sample_small.png" alt=" Image" width="70%">
-##output
+## input
+<img src="result/sample_small.png" alt=" Image" width="35%">
+## output
 <img src="result/sample_large.png" alt=" Image" width="70%">
 
 ## 📦 Requirements
